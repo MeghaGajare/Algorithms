@@ -1,4 +1,4 @@
-#check balanced parenthesis problem
+#check balanced parentheses problem
 
 open_bkt = ['{','(','[']
 close_bkt = ['}',')',']']
