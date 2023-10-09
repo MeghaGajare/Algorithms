@@ -1,5 +1,5 @@
-a = list(map(int,input("enter element of Array A:").strip().split()))
-b = list(map(int,input("enter element of Array B:").strip().split()))
+a = list(map(int,input("enter element of Array A: ").strip().split()))
+b = list(map(int,input("enter element of Array B: ").strip().split()))
 
 size_a = len(a)
 size_b = len(b)
@@ -28,6 +28,7 @@ def union(a,b,size_a,size_b):
     while j<size_b:
         print(b[j],end=' ')
         j+=1
+union(a,b,size_a,size_b)
 
 def union2(a,b,size_a,size_b):
     temp = []
@@ -50,3 +51,15 @@ def union2(a,b,size_a,size_b):
             
 
 union2(a,b,size_a,size_b)
+
+
+
+def Intersection(lst1, lst2):
+    return set(lst1).intersection(lst2)
+     
+# Driver Code
+lst1 = [ 4, 9, 1, 17, 11, 26, 28, 28, 26, 66, 91]
+lst2 = [9, 9, 74, 21, 45, 11, 63]
+print(lst1)
+print(lst2)
+print(Intersection(lst1, lst2))
