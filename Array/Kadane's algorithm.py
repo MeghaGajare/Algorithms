@@ -7,6 +7,7 @@ sum = 0
 maxi = ar[0]    #init with 1st element
 for i in range(len(ar)):
     sum += ar[i]
+    print(sum,ar[i],maxi)
     if(sum > maxi):
         maxi = sum
     if(sum < 0):

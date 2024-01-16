@@ -7,7 +7,7 @@ c.sort()
 print(c)
 
 length = len(c)
-print(length)
+print('Total Length of an array: ',length)
 print('half:',length/2)
 val = length//2
 
